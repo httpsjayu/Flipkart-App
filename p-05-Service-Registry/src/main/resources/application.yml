@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: p-05-Service-Registry
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false   # 👈 disable fetching from other servers
